@@ -30,6 +30,15 @@ window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=
  else 
  { document.write("Nacisnąłeś Cancel!"); } 
  } 
+    
+    function zad6_lubkowski() 
+ { 
+ var name=prompt("Napisz imię","Imię Nazwisko"); 
+ if (name!=null && name!="") 
+ { 
+ document.write("Witaj " + name + "! jak się masz?"); 
+ } 
+ } 
 </script>
 
 <style> 
@@ -50,7 +59,21 @@ p {size: 2cm; font-weight: bolder; }
   <input type="button" name="przycisk3" value="Łubkowski-z3" onclick="Zad3_Lubkowski(' ')">
   <input type="button" name="przycisk4" value="Łubkowski-z4" onclick="zad4_lubkowski(' ')">
   <input type="button" name="przycisk5" value="Łubkowski-z5" onclick="zad5_lubkowski(' ')">
+    <input type="button" name="przycisk6" value="Łubkowski-z6" onclick="zad6_lubkowski(' ')">
+
   </form>
+
+    <div style="color:red;font-size:50px;">
+ <script language="JavaScript">
+var liczba1=prompt("liczba1=","");
+var liczba2=prompt("liczba2=","");
+var suma;
+ var a=parseFloat(liczba1);
+ var b=parseFloat(liczba2);
+ suma=a+b;
+ document.write("suma="+a+" + "+b+" = "+suma+"<br>");
+ </script>
+</div>
 
 </body>
 </html>
