@@ -12,8 +12,10 @@
           var D1=prompt("Dzien1","");
           var D2=prompt("Dzien2","");
           var sekundy;
-          sekundy=(D2-D1)*86400;
-          document.write("liczba sekund wynosi: "sekundy); 
+          var a=parseFloat(D1);
+          var b=parseFloat(D2);
+          sekundy=(b-a)*86400;
+          document.write("liczba sekund wynosi: "+sekundy); 
                }
           </script>
 
